@@ -1,0 +1,116 @@
+/* ボタン基本情報 */
+button
+{
+    width: 100px;
+    height: 50px;
+    font-size: 24px;
+    /* これで円形にできる */
+    border-radius: 5%;
+    margin: 5px;
+    /* 枠線は見えないようにする */
+    border: solid 0px #000000;
+}
+
+/* メインエリア情報 */
+#mainArea 
+{
+    text-align:center;
+    margin: 10px;
+    border: #FFF solid 5px;
+    background-color: #FFF;
+    width:500px;
+    /* 左右は中央寄せになるように設定 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 計算過程表示エリア */
+#inpFormula
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* 計算過程保持エリア */
+#inpCalc
+{
+    /* 非表示とする */
+    display: none;
+    /* 入力不可とする */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* 演算子表示エリア */
+#inpOperator
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:40px;
+    font-size: 36px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+
+/* 入力エリア */
+#inpMain
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:400px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 72px;
+    text-align: right;
+    color: #000;
+    background-color: #FFF;
+    border: solid 0px #000000;
+}
+/*        font-family: "ＭＳ ゴシック"; */
+
+
+/* 数値ボタン個別情報 */
+#btnNumber
+{
+    color: #000;
+    background-color: #cce0fc;
+}
+
+/* 演算子ボタン個別情報 */
+#btnOperator
+{
+    color: #000;
+    background-color: #dadce0;
+}
+
+/* ボタン個別情報（イコールボタン用） */
+#btnCalc
+{
+    color: #FFF;
+    background-color: #4285f4;
+}
+
+/* 表示切替ボタン個別情報 */
+#btnPage
+{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    margin: 0px;
+}
+

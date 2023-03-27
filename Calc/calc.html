@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<meta charset="UTF-8">
+<!--
+<link id="pageStyle" rel="stylesheet" href="css/calc_chrome_google.css">
+-->
+<link id="pageStyle" rel="stylesheet" href="css/calc_chrome_ios.css">
+<script type="text/javascript" src="js/calc.js"></script>
+<html>
+<div id="mainArea">
+ <head>
+     <button id="btnPage" onclick="chgStyle()" >i</button>
+     <br />
+ </head>
+ <body>
+    <input id="inpFormula"></input>
+    <input id="inpCalc" ></input>
+    <br />
+    <input id="inpOperator" ></input>
+    <input id="inpMain" value="0" ></input>
+    <br />
+    <button id="btnNumber7" class="btnNumber" onclick="pressBtn( '7' )" >7</button>
+    <button id="btnNumber8" class="btnNumber" onclick="pressBtn( '8' )" >8</button>
+    <button id="btnNumber9" class="btnNumber" onclick="pressBtn( '9' )" >9</button>
+    <button id="btnOperator4" class="btnOperator" onclick="pressBtn( '÷' )" >÷</button>
+    <br />
+    <button id="btnNumber4" class="btnNumber" onclick="pressBtn( '4' )" >4</button>
+    <button id="btnNumber5" class="btnNumber" onclick="pressBtn( '5' )" >5</button>
+    <button id="btnNumber6" class="btnNumber" onclick="pressBtn( '6' )" >6</button>
+    <button id="btnOperator3" class="btnOperator" onclick="pressBtn( '×' )" >×</button>
+    <br />
+    <button id="btnNumber1" class="btnNumber" onclick="pressBtn( '1' )" >1</button>
+    <button id="btnNumber2" class="btnNumber" onclick="pressBtn( '2' )" >2</button>
+    <button id="btnNumber3" class="btnNumber" onclick="pressBtn( '3' )" >3</button>
+    <button id="btnOperator2" class="btnOperator" onclick="pressBtn( '－' )" >－</button>
+    <br />
+    <button id="btnNumber0" class="btnNumber" onclick="pressBtn( '0' )" >0</button>
+    <button id="btnNumber00" class="btnNumber" onclick="pressBtn( '00' )" >00</button>
+    <button id="btnNumberC" class="btnNumber" onclick="pressBtn( '.' )" >.</button>
+    <button id="btnOperator1" class="btnOperator" onclick="pressBtn( '＋' )" >＋</button>
+    <br />
+    <button id="btnSupportA" class="btnSupport" onclick="pressBtn( '+/-' )" >+/-</button>
+    <button id="btnSupport" class="btnSupport" onclick="pressBackspace()">BS</button>
+    <button id="btnClear" class="btnClear" onclick="pressClear()" >AC</button>
+    <button id="btnCalc" class="btnCalc" onclick="pressEqual()">=</button>
+    <br />
+ </body>
+</div>
+</html>

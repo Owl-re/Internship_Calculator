@@ -1,0 +1,133 @@
+/* ボタン基本情報 */
+button
+{
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    /* これで円形にできる */
+    border-radius: 50%;
+    /* 間隔は10pxあける */
+    margin: 10px;
+    /* 枠線は見えないようにする */
+    border: solid 0px #000000;
+}
+
+/* メインエリア情報 */
+#mainArea 
+{
+    text-align:center;
+    margin: 10px;
+    border: #000 solid 5px;
+    background-color: #000;
+    width:470px;
+    border-radius: 3%;
+    /* 左右は中央寄せになるように設定 */
+    margin-left: auto;
+    margin-right: auto;
+    /* 枠内の上下にはひろめにスペースをもうける */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 計算過程表示エリア */
+#inpFormula
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #FFF;
+    background-color: #000;
+    border: solid 0px #000000;
+}
+
+/* 計算過程保持エリア */
+#inpCalc
+{
+    /* 非表示とする */
+    display: none;
+    /* 入力不可とする */
+    pointer-events: none;
+    width:440px;
+    height: 20px;
+    font-size: 18px;
+    text-align: right;
+    color: #FFF;
+    background-color: #000;
+    border: solid 0px #000000;
+}
+
+/* 演算子表示エリア */
+#inpOperator
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:40px;
+    font-size: 36px;
+    text-align: right;
+    color: #FFF;
+    background-color: #000;
+    border: solid 0px #000000;
+}
+
+/* 入力エリア */
+#inpMain
+{
+    /* 入力不可とする */
+    pointer-events: none;
+    width:400px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 72px;
+    text-align: right;
+    color: #FFF;
+    background-color: #000;
+    border: solid 0px #000000;
+}
+
+/* 数値ボタン個別情報 */
+.btnNumber
+{
+    color: #FFF;
+    background-color: #333333;
+}
+
+/* 演算子ボタン個別情報 */
+.btnOperator
+{
+    color: #FFF;
+    background-color: #FF8C00;
+}
+
+/* ボタン個別情報（イコールボタン用） */
+.btnCalc
+{
+    color: #FFF;
+    background-color:  #FF8C00;
+}
+
+/* ボタン個別情報（クリア用） */
+.btnClear
+{
+    color: #000;
+    background-color:  #C0C0C0;
+}
+
+/* ボタン個別情報（正負変換など） */
+.btnSupport
+{
+    color: #000;
+    background-color:  #C0C0C0;
+}
+
+/* 表示切替ボタン個別情報 */
+#btnPage
+{
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    margin: 0px;
+}
+
